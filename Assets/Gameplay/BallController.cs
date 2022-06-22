@@ -14,6 +14,14 @@ public class BallController : MonoBehaviour
         rig.velocity = speed;
     }
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            ResetBall();
+        }
+    }
+
     public void ResetBall()
     {
         transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
