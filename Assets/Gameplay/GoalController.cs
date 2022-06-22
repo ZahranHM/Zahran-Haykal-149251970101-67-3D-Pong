@@ -17,22 +17,22 @@ public class GoalController : MonoBehaviour
             if (p1Goal)
             {
                 manager.AddP1Score(1);
-                collision.GetComponent<BallController>().ResetBall();
+                collision.GetComponent<BallController>().DestroyBall();
             }
             if (p2Goal)
             {
                 manager.AddP2Score(1);
-                collision.GetComponent<BallController>().ResetBall();
+                collision.GetComponent<BallController>().DestroyBall();
             }
             if (p3Goal)
             {
                 manager.AddP3Score(1);
-                collision.GetComponent<BallController>().ResetBall();
+                collision.GetComponent<BallController>().DestroyBall();
             }
             if (p4Goal)
             {
                 manager.AddP4Score(1);
-                collision.GetComponent<BallController>().ResetBall();
+                collision.GetComponent<BallController>().DestroyBall();
             }
         }
 

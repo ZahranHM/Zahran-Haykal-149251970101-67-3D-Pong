@@ -17,7 +17,7 @@ public class MainMenuController : MonoBehaviour
 
     public void Exit()
     {
-        //exit
+        Application.Quit();
     }
 
     public void Author()

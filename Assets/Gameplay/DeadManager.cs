@@ -34,21 +34,21 @@ public class DeadManager : MonoBehaviour
     void StopP1(int num)
     {
         paddles[num - 1].GetComponent<PaddleController>().speed = 0;
-        deadwalls[num - 1].transform.position += new Vector3(0, 1, 0);
+        deadwalls[num - 1].transform.position = new Vector3(deadwalls[num-1].transform.position.x, 0, deadwalls[num-1].transform.position.z);
     }
     void StopP2(int num)
     {
         paddles[num - 1].GetComponent<PaddleController>().speed = 0;
-        deadwalls[num - 1].transform.position += new Vector3(0, 1, 0);
+        deadwalls[num - 1].transform.position = new Vector3(deadwalls[num - 1].transform.position.x, 0, deadwalls[num - 1].transform.position.z);
     }
     void StopP3(int num)
     {
         paddles[num - 1].GetComponent<PaddleController>().speed = 0;
-        deadwalls[num - 1].transform.position += new Vector3(0, 1, 0);
+        deadwalls[num - 1].transform.position = new Vector3(deadwalls[num - 1].transform.position.x, 0, deadwalls[num - 1].transform.position.z);
     }
     void StopP4(int num)
     {
         paddles[num - 1].GetComponent<PaddleController>().speed = 0;
-        deadwalls[num - 1].transform.position += new Vector3(0, 1, 0);
+        deadwalls[num - 1].transform.position = new Vector3(deadwalls[num - 1].transform.position.x, 0, deadwalls[num - 1].transform.position.z);
     }
 }
