@@ -472,11 +472,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4279262306214213573, guid: 4473ccdc147b97740a7328d5fda0e6a6, type: 3}
       propertyPath: leftKey
-      value: 117
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 4279262306214213573, guid: 4473ccdc147b97740a7328d5fda0e6a6, type: 3}
       propertyPath: rightKey
-      value: 105
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 5115232780902474053, guid: 4473ccdc147b97740a7328d5fda0e6a6, type: 3}
       propertyPath: m_RootOrder
@@ -1469,10 +1469,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf25fbdadb63b284d8fa6f3bfcb1a700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1Score: 1
-  P2Score: 1
-  P3Score: 1
-  P4Score: 1
+  P1Score: 10
+  P2Score: 10
+  P3Score: 10
+  P4Score: 10
   scoreToBeDead: 0
   grim: {fileID: 1968715577}
 --- !u!136 &890451334
